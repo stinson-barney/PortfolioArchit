@@ -89,8 +89,8 @@
     <!-- =====================================
     	==== Start Header -->
 
-    <header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="6"
-        data-background="images/homepg.png" data-stellar-background-ratio="0.5">
+    <header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="6" data-background="images/homepg.png"
+        data-stellar-background-ratio="0.5">
 
         <div class="svg">
             <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
@@ -270,7 +270,7 @@
 
     <!-- Start Portfolio -->
     <section class="portfolio section-padding" data-scroll-index="3">
-        <div class="container" >
+        <div class="container">
             <div class="column">
 
                 <div class="section-head text-center col-sm-12">
@@ -280,83 +280,59 @@
 
                 <div class="clearfix"></div>
 
-                <div class="work-cards-grid text-center" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
-                    <!-- Flip card item for WIL Project Simulator -->
-                    <div class="flip-card" style="width: 20%; margin: 10px;">
-                        <div class="flip-card-inner" style="width: 100%; height: 250px; perspective: 1000px;">
-                            <div class="flip-card-front"
-                                style="width: 100%; height: 100%; position: absolute; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #242424; color: #fff;">
+                <div class="work-cards-grid text-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
                                 <h5>WIL Project Simulator</h5>
                             </div>
-                            <div class="flip-card-back"
-                                style="width: 100%; height: 100%; position: absolute; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #fff; color: #333; transform: rotateY(180deg);">
+                            <div class="flip-card-back">
                                 <h6>Machine Learning Programmer</h6>
                                 <p>Worked on data analysis, predictive maintenance, and user satisfaction using ML/AI
                                     techniques. Improved scalability and real-time analytics, increasing elasticity by
                                     52%.</p>
-                                <button class="read-more-btn"
-                                    style="background-color: #1d8348; color: #fff; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; margin-top: auto;"
-                                    onclick="showOverlay()">Read More</button>
+                                <button class="read-more-btn" onclick="showOverlay()">Read More</button>
                             </div>
                         </div>
                     </div>
-                    <div class="flip-card" style="width: 20%; margin: 10px;">
-                        <div class="flip-card-inner" style="width: 100%; height: 250px; perspective: 1000px;">
-                            <div class="flip-card-front"
-                                style="width: 100%; height: 100%; position: absolute; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #242424; color: #fff;">
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
                                 <h5>E-Plastic</h5>
                             </div>
-                            <div class="flip-card-back"
-                                style="width: 100%; height: 100%; position: absolute; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #fff; color: #333; transform: rotateY(180deg);">
-
+                            <div class="flip-card-back">
                                 <p>Developed an online plastic collection system to facilitate recycling.</p>
-
-                                <button class="read-more-btn"
-                                    style="background-color: #1d8348; color: #fff; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; margin-top: 10px;"
-                                    onclick="showOverlay_eplastic()">Read More</button>
-
+                                <button class="read-more-btn" onclick="showOverlay_eplastic()">Read More</button>
                             </div>
                         </div>
                     </div>
-                    <div class="flip-card" style="width: 20%; margin: 10px;">
-                        <div class="flip-card-inner" style="width: 100%; height: 250px; perspective: 1000px;">
-                            <div class="flip-card-front"
-                                style="width: 100%; height: 100%; position: absolute; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #242424; color: #fff;">
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
                                 <h5>Parkinson Pre-Screening Tool</h5>
                             </div>
-                            <div class="flip-card-back"
-                                style="width: 100%; height: 100%; position: absolute; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #fff; color: #333; transform: rotateY(180deg);">
-
+                            <div class="flip-card-back">
                                 <p>Machine learning-based tool for pre-screening Parkinson's disease.</p>
-
-
-                                <button class="read-more-btn" <button class="read-more-btn"
-                                    style="background-color: #1d8348; color: #fff; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; margin-top: 10px;"
-                                    onclick="showOverlay_parkinson()">Read More</button>
-
+                                <button class="read-more-btn" onclick="showOverlay_parkinson()">Read More</button>
                             </div>
                         </div>
                     </div>
-                    <div class="flip-card" style="width: 20%; margin: 10px;">
-                        <div class="flip-card-inner" style="width: 100%; height: 250px; perspective: 1000px;">
-                            <div class="flip-card-front"
-                                style="width: 100%; height: 100%; position: absolute; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #242424; color: #fff;">
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
                                 <h5>Detecting Dyslexia</h5>
                             </div>
-                            <div class="flip-card-back"
-                                style="width: 100%; height: 100%; position: absolute; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #fff; color: #333; transform: rotateY(180deg);">
-
+                            <div class="flip-card-back">
                                 <p>Built a system to detect dyslexia through eye movement analysis.</p>
-
-
-                                <button class="read-more-btn" <button class="read-more-btn"
-                                    style="background-color: #1d8348; color: #fff; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; margin-top: 10px;"
-                                    onclick="showOverlay_DD()">Read More</button>
-
+                                <button class="read-more-btn" onclick="showOverlay_DD()">Read More</button>
                             </div>
                         </div>
                     </div>
                 </div>
+
 
                 <!-- Overlay Section -->
                 <div id="overlay"
@@ -370,10 +346,14 @@
 
                         <!-- Add an image (example image added) -->
                         <div style="display: flex; justify-content: center; margin-top: 20px;">
-                            <img src="images/Presentation1.mp4" alt="WIL Project Image"
-                                style="max-width: 80%; height: auto; border-radius: 10px;">
-                        </div> 
-                        <p style="text-align: justify;"><br>I have been fortunate to work on impactful projects in Machine
+                           <video controls style="max-width: 80%; height: auto; border-radius: 10px;">
+                            <source src="./images/Presentation1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video>
+
+                        </div>
+                        <p style="text-align: justify;"><br>I have been fortunate to work on impactful projects in
+                            Machine
                             Learning and Data Science.
                             From building predictive models to automating data pipelines, my work has been centered
                             around solving real-world problems and delivering valuable insights. My expertise includes
@@ -410,8 +390,8 @@
 
 
                 <!-- <div class="work-cards text-center full-width" style="display: flex; justify-content: space-between;"> -->
-                    <!-- Flip card item for E-Plastic -->
-                    <!-- <div class="flip-card" style="width: 30%; margin: 10px;">
+                <!-- Flip card item for E-Plastic -->
+                <!-- <div class="flip-card" style="width: 30%; margin: 10px;">
                         <div class="flip-card-inner" style="width: 100%; height: 250px; perspective: 1000px;">
                             <div class="flip-card-front"
                                 style="width: 100%; height: 100%; position: absolute; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #242424; color: #fff;">
@@ -446,7 +426,8 @@
                             <img src="images/images.webp" alt="WIL Project Image"
                                 style="max-width: 80%; height: auto; border-radius: 10px;">
                         </div>
-                        <p style="text-align: justify;"><Br>E-Plastic is an innovative platform developed as part of my BCA
+                        <p style="text-align: justify;"><Br>E-Plastic is an innovative platform developed as part of my
+                            BCA
                             final year project. The
                             platform serves as an eco-friendly solution that connects recycling companies, plastic
                             collectors, and customers. The goal is to streamline the process of plastic collection and
@@ -480,8 +461,8 @@
                 </script>
 
                 <!-- <div class="work-cards text-center full-width" style="display: flex; justify-content: space-between;"> -->
-                    <!-- Flip card item for Parkinson Pre-Screening Tool -->
-                    <!-- <div class="flip-card" style="width: 30%; margin: 10px;">
+                <!-- Flip card item for Parkinson Pre-Screening Tool -->
+                <!-- <div class="flip-card" style="width: 30%; margin: 10px;">
                         <div class="flip-card-inner" style="width: 100%; height: 250px; perspective: 1000px;">
                             <div class="flip-card-front"
                                 style="width: 100%; height: 100%; position: absolute; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #242424; color: #fff;">
@@ -522,13 +503,15 @@
                             This study involved applying multiple machine learning models on the data and then using the
                             random forest method to do the prediction.</p><br>
 
-                        <p style="text-align: justify;">The GUI solution first takes the image as the input and then processes the image using
+                        <p style="text-align: justify;">The GUI solution first takes the image as the input and then
+                            processes the image using
                             OpenCV library. Using that it finds out the placement of the spiral drawn and the variation
                             in the shape. Then the difference in the actual drawn shape and the main shape is saved in
                             csv file. After that the csv file goes for the machine learning and the ML code predicts the
                             outcome using the random forest method</p><br>
 
-                        <p style="text-align: justify;">Overall, after testing we have found that the solution provides us the promising results
+                        <p style="text-align: justify;">Overall, after testing we have found that the solution provides
+                            us the promising results
                             with the prediction accuracy of 74 per cent and the precision of 90 per cent. This solution
                             can be used in the medical facilities as the pre-screening tool and its results can be
                             improved significantly with adding more data to the training with time.</p>
@@ -553,11 +536,11 @@
                     }
                 </script>
 
-                
+
 
                 <!-- <div class="work-cards text-center full-width" style="display: flex; justify-content: space-between;">
                     Flip card item for Detecting Dyslexia -->
-                    <!-- <div class="flip-card" style="width: 30%; margin: 10px;">
+                <!-- <div class="flip-card" style="width: 30%; margin: 10px;">
                         <div class="flip-card-inner" style="width: 100%; height: 250px; perspective: 1000px;">
                             <div class="flip-card-front"
                                 style="width: 100%; height: 100%; position: absolute; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; padding: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #242424; color: #fff;">
@@ -593,12 +576,18 @@
                             <img src="images/Power point presentstion.jpg" alt="WIL Project Image"
                                 style="max-width: 80%; height: auto; border-radius: 10px;">
                         </div>
-                        <p style="text-align: justify;"><br>Using eye tracking measures and machine learning models to detect dyslexia.
-                            The objective is to design a prototype called DDUET (Dyslexia Detection Using Eye Tracking) that uses a
-                            VR headset and a small camera to record eye movements while the subject reads a passage. The recorded
-                            data is processed using OpenCV and machine learning models to come up with an ML classification model.
-                            The report provides technical details on the GUI design, video processing, and machine learning algorithm
-                            used in the study. The study aims to analyze the differences in reading patterns between dyslexic and non-
+                        <p style="text-align: justify;"><br>Using eye tracking measures and machine learning models to
+                            detect dyslexia.
+                            The objective is to design a prototype called DDUET (Dyslexia Detection Using Eye Tracking)
+                            that uses a
+                            VR headset and a small camera to record eye movements while the subject reads a passage. The
+                            recorded
+                            data is processed using OpenCV and machine learning models to come up with an ML
+                            classification model.
+                            The report provides technical details on the GUI design, video processing, and machine
+                            learning algorithm
+                            used in the study. The study aims to analyze the differences in reading patterns between
+                            dyslexic and non-
                             dyslexic students by eliminating head and body movements.</p>
 
 
@@ -620,7 +609,7 @@
                         document.getElementById("overlay_DD").style.display = "none";
                     }
                 </script>
- 
+
 
             </div>
 
@@ -633,25 +622,23 @@
     </section>
     <!-- End Portfolio -->
 
-    <!-- Add this CSS to make the flip effect work properly -->
-    <style>
+    <!-- <style>
         .flip-card:hover .flip-card-inner {
             transform: rotateY(180deg);
         }
 
         .flip-card {
             cursor: pointer;
-            width: 100%;
+            width: 20%;
             max-width: 250px;
         }
-
-        /* Flex container ensures cards are in one row */
         .work-cards {
             display: flex;
             justify-content: space-between;
             gap: 20px;
             flex-wrap: wrap;
         }
+
         .work-cards-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -659,13 +646,6 @@
             justify-items: center;
         }
 
-        /* Ensure the cards take up 30% width each, keeping 3 per row */
-        /* .flip-card {
-            width: 30%;
-            margin: 10px;
-        } */
-
-        /* Fix for mirrored text */
         .flip-card-inner {
             transition: transform 0.6s;
             transform-style: preserve-3d;
@@ -673,19 +653,149 @@
 
         .flip-card-back {
             transform: rotateY(180deg);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            backface-visibility: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 2vw;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background: #fff;
+            color: #333;
+            box-sizing: border-box;
+            overflow: auto;
         }
+
+        @media (max-width: 768px) {
+            .flip-card-back {
+                padding: 4vw;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .flip-card-back {
+                padding: 5vw;
+                font-size: 0.85rem;
+                flex-direction: column;
+            }
+        }
+
 
         .flip-card-front,
         .flip-card-back {
             backface-visibility: hidden;
         }
-    </style>
 
+        @media (max-width: 992px) {
+            .flip-card {
+                width: 45%;
+            }
+        }
+    </style> -->
+    <style>
+        .work-cards-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            padding: 20px 0;
+        }
+
+        /* Flip card */
+        .flip-card {
+            width: 20%;
+            max-width: 250px;
+            perspective: 1000px;
+            height: 250px;
+        }
+
+        @media (max-width: 992px) {
+            .flip-card {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .flip-card {
+                width: 100%;
+            }
+        }
+
+        .flip-card-inner {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front,
+        .flip-card-back{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2vw;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+
+        .flip-card-front {
+            background: #242424;
+            color: #fff;
+        }
+
+        .flip-card-back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform: rotateY(180deg);
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: flex-start; 
+            padding: 1rem;
+            overflow-y: auto;
+            border-radius: 10px;
+            background: #fff;
+            color: #333;
+            box-sizing: border-box;
+        }
+
+
+        .read-more-btn {
+            background-color: #1d8348;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
 
     <!-- =====================================
         ==== Start Blog -->
 
-    
+
 
     <!-- End Blog ====
         ======================================= -->
@@ -703,8 +813,8 @@
                     <h6>Get In Touch</h6>
                 </div> -->
 
-                <!-- Contact Form -->
-                <!-- <div class="col-md-12">
+    <!-- Contact Form -->
+    <!-- <div class="col-md-12">
                     <form class="form" id="contact-form" method="post" action="contact.php">
 
                         <div class="messages"></div>
@@ -765,9 +875,9 @@
                     <h4>Contact Me</h4>
                     <h6>Let's Connect</h6>
                 </div> -->
-    
-                <!-- Left: Google Map and Address -->
-                <!-- <div class="col-md-6">
+
+    <!-- Left: Google Map and Address -->
+    <!-- <div class="col-md-6">
                     <div class="map mb-4">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.924013893122!2d-79.29012688450192!3d43.750594979118875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d2edc6fbd6e1%3A0x3a99f2c70dccecf3!2s1272%20Warden%20Ave%2C%20Scarborough%2C%20ON%20M1R%202R3%2C%20Canada!5e0!3m2!1sen!2sca!4v1680807366192!5m2!1sen!2sca"
@@ -777,9 +887,9 @@
                     </div>
                     <p><strong>Address:</strong><br>1272 Warden Avenue,<br>Scarborough, ON, Canada,<br>M1R 2R3</p>
                 </div> -->
-    
-                <!-- Right: Contact Info and Social Links -->
-                <!-- <div class="col-md-6 d-flex flex-column justify-content-center">
+
+    <!-- Right: Contact Info and Social Links -->
+    <!-- <div class="col-md-6 d-flex flex-column justify-content-center">
                     <div class="info mb-4">
                         <p><strong>Email:</strong> archittrivedi5141@outlook.com</p>
                         <p><strong>Phone:</strong> +1 (437) 264-4028</p>
@@ -801,18 +911,20 @@
         </div>
     </section> -->
 
-    <section class="contact section-padding" data-scroll-index="4" style="background-color: #000; color: #fff; padding: 60px 0;">
+    <section class="contact section-padding" data-scroll-index="4"
+        style="background-color: #000; color: #fff; padding: 60px 0;">
         <div class="container">
             <div class="row">
-    
+
                 <div class="section-head text-center col-sm-12">
                     <h4 style="color: #fff;">Contact Me</h4>
                     <h6 style="color: #ccc;">Let's Connect</h6>
                 </div>
-    
+
                 <!-- Left: Embedded Google Form (Full height, no scroll needed) -->
-                <div class="col-md-6" style="margin-bottom: 30px;">
-                    <div style="background: #1a1a1a; border-radius: 12px; padding: 20px; box-shadow: 0 0 25px rgba(255, 255, 255, 0.1); overflow: hidden;">
+                <div class="col-md-12" style="margin-bottom: 30px;">
+                    <div
+                        style="background: #1a1a1a; border-radius: 12px; padding: 20px; box-shadow: 0 0 25px rgba(255, 255, 255, 0.1); overflow: hidden;">
                         <iframe
                             src="https://docs.google.com/forms/d/e/1FAIpQLSfKNepV9zYNiojx8Xu3_Z7j-y1TqdQqAFqjCkDN2bqywN_MaA/viewform?embedded=true"
                             width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0"
@@ -821,22 +933,26 @@
                         </iframe>
                     </div>
                 </div>
-    
+
                 <!-- Right: Contact Info and Social Links -->
-                <div class="col-md-6 d-flex flex-column justify-content-center" style="padding-left: 20px;">
+                <div class="col-md-12 d-flex flex-column justify-content-center" style="padding-left: 20px;">
                     <div class="info" style="margin-bottom: 25px;">
-                        <p><strong>Email:</strong> 
-                            <a href="mailto:archittrivedi5141@outlook.com" style="color: #00A9A5; text-decoration: none;">archittrivedi5141@outlook.com</a>
+                        <p><strong>Email:</strong>
+                            <a href="mailto:archittrivedi5141@outlook.com"
+                                style="color: #00A9A5; text-decoration: none;">archittrivedi5141@outlook.com</a>
                         </p>
-                        <p><strong>Phone:</strong> 
-                            <a href="tel:+14372644028" style="color: #00A9A5; text-decoration: none;">+1 (437) 264-4028</a>
+                        <p><strong>Phone:</strong>
+                            <a href="tel:+14372644028" style="color: #00A9A5; text-decoration: none;">+1 (437)
+                                264-4028</a>
                         </p>
                     </div>
                     <div class="social-links" style="display: flex; align-items: center;">
-                        <a href="https://github.com/stinson-barney" target="_blank" style="margin-right: 15px; color: #fff;">
+                        <a href="https://github.com/stinson-barney" target="_blank"
+                            style="margin-right: 15px; color: #fff;">
                             <i class="fab fa-github fa-2x"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/archit-trivedi/" target="_blank" style="margin-right: 15px; color: #0A66C2;">
+                        <a href="https://www.linkedin.com/in/archit-trivedi/" target="_blank"
+                            style="margin-right: 15px; color: #0A66C2;">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                         <a href="https://www.instagram.com/archit.trivedii/" target="_blank" style="color: #E1306C;">
@@ -844,13 +960,13 @@
                         </a>
                     </div>
                 </div>
-    
+
             </div>
         </div>
     </section>
-    
-    
-    
+
+
+
 
     <!-- End Contact ====
         ======================================= -->
